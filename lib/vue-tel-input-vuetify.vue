@@ -121,7 +121,7 @@
 </template>
 
 <script>
-import PhoneNumber from 'awesome-phonenumber';
+import * as PhoneNumber from 'awesome-phonenumber';
 import utils, { getCountry, setCaretPosition } from './utils';
 
 function getDefault(key) {
